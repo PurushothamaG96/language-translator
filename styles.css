@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4073e8;
+}
+.container{
+    width: 690px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+.wrapper{
+    border:1px solid #bbb;
+    border-radius: 5px;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.text-input .to-text{
+    border-left: 1px solid #bbb;
+}
+.text-input textarea{
+    width: 100%;
+    height:250px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.controls, li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.controls{
+    list-style: none;
+    padding: 15px;
+}
+.controls .icons i{
+    color: #bbb;
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.exchange{
+    color: #9f9f9f;
+    cursor: pointer;
+    font-size: 16px;
+}
